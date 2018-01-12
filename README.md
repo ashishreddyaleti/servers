@@ -58,7 +58,9 @@ install tomcat server 8.5.24 on Centos 7
 
     // copy the below script 
     ********************************************************************************
-      # systemd unit file for tomcat
+ 
+ 
+ # systemd unit file for tomcat
 [Unit]
 Description=Apache Tomcat Web Application Container
 After=syslog.target network.target
